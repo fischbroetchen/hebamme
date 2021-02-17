@@ -1,0 +1,40 @@
+.masthead-circle {
+  position: relative;
+ 
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.369;
+  position: absolute;
+  left: -100px;
+  top:-150px;
+  width: 65rem;
+  height: 65rem;
+  z-index: 0;
+}
+
+
+#masthead-overlay {
+  opacity: initial!important;
+  z-index: 3;
+  position:absolute;
+  left: 250px;
+  top: 200px;
+  mix-blend-mode: ;
+  max-height: 500px;
+  /*opacity: 100%;*/
+}
+
+.first-section-color{
+  background-color: #b5cfcf!important;
+}
+
+#first-section p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  padding-top: 15px;
+}
+
+.news-element {
+  font-family: 'Raleway', sans-serif;
+}
