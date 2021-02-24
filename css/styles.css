@@ -10531,7 +10531,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .masthead .container {
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 
@@ -10570,8 +10570,13 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 /*----------MASTHEAD---------*/
+.masthead .container {
+  /*overflow: hidden!important;*/
+  width: 100%;
+}
 
 header.masthead {
+
   margin-top: 100px;
   /*padding-top: 275px;*/
   /*padding-bottom: 280px;*/
