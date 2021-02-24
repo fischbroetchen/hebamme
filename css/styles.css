@@ -10010,7 +10010,7 @@ h3 {
   }
 }
 body {
-  overflow-x: hidden;
+  overflow-x: hidden!important;
 }
 
 p {
@@ -10570,8 +10570,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 /*----------MASTHEAD---------*/
-.masthead .container {
-  /*overflow: hidden!important;*/
+.masthead {
+  overflow: hidden!important;
   width: 100%;
 }
 
@@ -10588,6 +10588,12 @@ header.masthead {
   background-position: center center;
   background-size: cover;
   height: 380px;
+  width: 100%;
+}
+
+.masthead img {
+  object-fit: contain;
+  overflow: hidden;
 }
 
 
