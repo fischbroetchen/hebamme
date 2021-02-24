@@ -10556,8 +10556,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
   #mainNav .navbar-brand img {
     top: 25px;
-    height: 4rem;
-    position: fixed;
+    height: 100px;
+    /*position: fixed;*/
     left: 20px;
   }
   #mainNav .container {
@@ -10582,7 +10582,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 
 }
-
+/*
 #navbar-circle {
   position: fixed;
   top: -6.5rem;
@@ -10595,4 +10595,4 @@ section#contact form#contactForm :-ms-input-placeholder {
   z-index: 850;
   /*border: 0.3rem solid #7dabaa;*/
 
-}
+}*/
