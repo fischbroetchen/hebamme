@@ -57,7 +57,7 @@
 
 #masthead-overlay {
   opacity: initial!important;
-  z-index: 3;
+  z-index: 1000;
   position:absolute;
   height: 520px;
   clear: both;

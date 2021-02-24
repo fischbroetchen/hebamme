@@ -10019,6 +10019,7 @@ p {
 
 .page-section {
   padding: 0rem 0rem;
+  z-index: 300;
 }
 .page-section h2.section-heading {
   font-size: 2rem;
@@ -10533,9 +10534,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.masthead .container {
-  /*overflow: hidden;*/
-}
 
 
 
@@ -10573,10 +10571,10 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 /*----------MASTHEAD---------*/
-.masthead {
+/*.masthead {
   overflow: hidden!important;
   width: 100%;
-}
+}*/
 
 header.masthead {
 
@@ -10594,12 +10592,12 @@ header.masthead {
   width: 100%;
 }
 
-.masthead img {
+/*.masthead img {
   object-fit: contain;
   overflow: hidden;
 }
 
-
+*/
 
 @media (min-width: 576px) { 
   header.masthead {
