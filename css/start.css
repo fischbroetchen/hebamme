@@ -1,10 +1,10 @@
-.masthead-circle {
+/*.masthead-circle {
   position: relative;
  
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
   opacity: 0.369;
-  /*position: absolute;*/
+  position: absolute;
   left: -35rem;
   top:-50px;
   width: 45rem;
@@ -13,73 +13,19 @@
   clear: both;
   z-index: 0;
 }
+*/
 
 
-#masthead-overlay {
-  opacity: initial!important;
-  z-index: 3;
-  position:relative;
-  /*left: 250px;*/
-  /*top: 200px;*/
-  mix-blend-mode: ;
-  max-height: 600px;
-  clear: both;
-  display: block;
-  top:30px ;
-  left: -15rem; 
-  /*opacity: 100%;*/
-}
 
-@media (max-width: 1600px) {
-  .masthead-circle {
-    display: none;
-   /* position: relative;
-    
-    border-radius: 50%;
-    background-color: rgb(255, 255, 255);
-    opacity: 0.369;
-    position: absolute;
-    left: 0;
-    top:0px;
-    width: 20rem;
-    height: 20rem;
-    z-index: 0;
-    */
-  }
-
+/*@media (max-width: 1600px) {
   #masthead-overlay {
     position: relative;
   max-height: 600px;
   top: 0rem;
   left: 0rem;
-}
-}
+}*/
 
 
-@media (max-width: 992px) {
-  .masthead-circle {
-    display: none;
-   /* position: relative;
-    
-    border-radius: 50%;
-    background-color: rgb(255, 255, 255);
-    opacity: 0.369;
-    position: absolute;
-    left: 0;
-    top:0px;
-    width: 20rem;
-    height: 20rem;
-    z-index: 0;
-    */
-  }
-
-  #masthead-overlay {
-    position: relative;
-  max-height: 280px;
-  top: 0rem;
-  left: 0rem;
-}
-}
 
 .first-section-color{
   background-color: #b5cfcf!important;
@@ -105,4 +51,58 @@
   font-size: 2.5rem;
   margin-bottom: 10px;
   line-height: 1;
+}
+
+
+
+#masthead-overlay {
+  opacity: initial!important;
+  z-index: 3;
+  position:absolute;
+  height: 520px;
+  clear: both;
+  display: block;
+  top:20px ;
+  left: -80px;
+  /*left: -15rem; */
+}
+
+
+
+@media (min-width: 576px) { 
+  #masthead-overlay {
+
+    background-position: 65% !important;
+  }
+}
+
+
+@media (min-width: 768px) { 
+  #masthead-overlay {
+  
+  }
+}
+
+
+@media (min-width: 992px) { 
+  #masthead-overlay {
+       top: 100px;
+       height: 580px;
+ }
+
+@media (min-width: 1200px) { 
+  #masthead-overlay {
+     height: 660px;
+
+
+  }
+}
+@media (min-width: 1600px) { 
+  #masthead-overlay {
+    position: relative;
+    height: 660px;
+    top: -50px;
+    left: -15rem;
+    }
+
 }

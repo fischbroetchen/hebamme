@@ -10174,19 +10174,7 @@ img::-moz-selection {
     margin-right: 0;
   }
 }
-header.masthead {
-  margin-top: 10.5rem;
-  /*padding-top: 275px;*/
-  /*padding-bottom: 280px;*/
-  text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
-  max-height: 620px;
-}
+
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
@@ -10213,9 +10201,9 @@ header.masthead .masthead-heading {
   header.masthead .masthead-heading {
     font-size: 4.5rem;
     font-weight: 700;
-    line-height: 4.5rem;
-    margin-bottom: 4rem;
-    max-width: 600px;
+    /*line-height: 4.5rem;*/
+    /*margin-bottom: 4rem;*/
+    /*max-width: 450px;*/
   }
 }
 #portfolio .portfolio-item {
@@ -10556,12 +10544,12 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
   #mainNav .navbar-brand img {
     top: 25px;
-    height: 80px;
+    height: 90px;
     /*position: fixed;*/
     /*left: 50px;*/
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   #mainNav .container {
     /*border-bottom: 0.3rem solid #7dabaa;*/
@@ -10576,15 +10564,56 @@ section#contact form#contactForm :-ms-input-placeholder {
    
   }
 
-
-  header.masthead {
-    margin-top: 4rem;
-    padding-top: 12.5rem;
-    padding-bottom: 12.5rem;
-    background-position: 75%;
-  }
-
 }
+
+/*----------MASTHEAD---------*/
+
+header.masthead {
+  margin-top: 100px;
+  /*padding-top: 275px;*/
+  /*padding-bottom: 280px;*/
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  height: 380px;
+}
+
+
+
+@media (min-width: 576px) { 
+  header.masthead {
+    height: 380px;
+    background-position: 65% !important;
+  }
+}
+
+
+@media (min-width: 768px) { 
+  header.masthead {
+    height: 380px;
+  }
+}
+
+
+@media (min-width: 992px) { 
+  header.masthead {
+    height: 450px;
+    background-position: 75%;
+        margin-top: 170px;
+  }
+ }
+
+@media (min-width: 1200px) { 
+  header.masthead {
+ 
+    height: 560px;
+    }
+}
+
 /*
 #navbar-circle {
   position: fixed;
