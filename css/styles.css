@@ -10176,8 +10176,8 @@ img::-moz-selection {
 }
 header.masthead {
   margin-top: 10.5rem;
-  padding-top: 275px;
-  padding-bottom: 280px;
+  /*padding-top: 275px;*/
+  /*padding-bottom: 280px;*/
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/header-bg.jpg");
@@ -10185,6 +10185,7 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  max-height: 620px;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -10214,6 +10215,7 @@ header.masthead .masthead-heading {
     font-weight: 700;
     line-height: 4.5rem;
     margin-bottom: 4rem;
+    max-width: 600px;
   }
 }
 #portfolio .portfolio-item {
@@ -10583,7 +10585,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 #navbar-circle {
   position: fixed;
-  top: -5.5rem;
+  top: -6.5rem;
   left: -3rem;
   height: 16rem;
   width: 16rem;
@@ -10591,6 +10593,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   overflow: visible;
   background-color: white;
   z-index: 850;
-  border: 0.3rem solid #7dabaa;
+  /*border: 0.3rem solid #7dabaa;*/
 
 }

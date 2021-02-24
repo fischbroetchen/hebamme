@@ -4,11 +4,13 @@
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
   opacity: 0.369;
-  position: absolute;
-  left: 0;
+  /*position: absolute;*/
+  left: -22.5rem;
   top:0px;
-  width: 50rem;
-  height: 50rem;
+  width: 45rem;
+  height: 45rem;
+  display: inline-block;
+  clear: both;
   z-index: 0;
 }
 
@@ -16,11 +18,15 @@
 #masthead-overlay {
   opacity: initial!important;
   z-index: 3;
-  position:absolute;
-  left: 250px;
-  top: 200px;
+  position:relative;
+  /*left: 250px;*/
+  /*top: 200px;*/
   mix-blend-mode: ;
   max-height: 450px;
+  clear: both;
+  display: block;
+  top:-500px ;
+  left: -225px; 
   /*opacity: 100%;*/
 }
 
