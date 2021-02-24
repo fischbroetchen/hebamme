@@ -6,7 +6,7 @@
   opacity: 0.369;
   /*position: absolute;*/
   left: -22.5rem;
-  top:0px;
+  top:-50px;
   width: 45rem;
   height: 45rem;
   display: inline-block;
@@ -25,8 +25,8 @@
   max-height: 450px;
   clear: both;
   display: block;
-  top:-500px ;
-  left: -225px; 
+  top:-650px ;
+  left: -100px; 
   /*opacity: 100%;*/
 }
 
@@ -48,6 +48,7 @@
   }
 
   #masthead-overlay {
+    position: absolute;
   max-height: 280px;
   top: 10rem;
   left: 5rem;
