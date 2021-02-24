@@ -93,7 +93,7 @@
 @media (min-width: 1200px) { 
   #masthead-overlay {
      height: 660px;
-
+     top: 120px;
 
   }
 }
