@@ -5,10 +5,10 @@
   background-color: rgb(255, 255, 255);
   opacity: 0.369;
   position: absolute;
-  left: -100px;
-  top:-150px;
-  width: 65rem;
-  height: 65rem;
+  left: 0;
+  top:0px;
+  width: 50rem;
+  height: 50rem;
   z-index: 0;
 }
 
@@ -20,9 +20,34 @@
   left: 250px;
   top: 200px;
   mix-blend-mode: ;
-  max-height: 500px;
+  max-height: 450px;
   /*opacity: 100%;*/
 }
+
+@media (max-width: 991.98px) {
+  .masthead-circle {
+    display: none;
+   /* position: relative;
+    
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.369;
+    position: absolute;
+    left: 0;
+    top:0px;
+    width: 20rem;
+    height: 20rem;
+    z-index: 0;
+    */
+  }
+
+  #masthead-overlay {
+  max-height: 280px;
+  top: 10rem;
+  left: 5rem;
+}
+}
+
 
 .first-section-color{
   background-color: #b5cfcf!important;
@@ -41,4 +66,11 @@
 
 #team p {
   font-size: 1.5em;
+}
+
+
+.news-date-d {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  line-height: 1;
 }
