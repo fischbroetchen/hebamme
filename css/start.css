@@ -22,15 +22,15 @@
   /*left: 250px;*/
   /*top: 200px;*/
   mix-blend-mode: ;
-  max-height: 500px;
+  max-height: 600px;
   clear: both;
   display: block;
-  top:-670px ;
+  top:30px ;
   left: -15rem; 
   /*opacity: 100%;*/
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1600px) {
   .masthead-circle {
     display: none;
    /* position: relative;
@@ -48,13 +48,38 @@
   }
 
   #masthead-overlay {
-    position: absolute;
-  max-height: 280px;
-  top: 10rem;
-  left: 5rem;
+    position: relative;
+  max-height: 600px;
+  top: 0rem;
+  left: 0rem;
 }
 }
 
+
+@media (max-width: 992px) {
+  .masthead-circle {
+    display: none;
+   /* position: relative;
+    
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.369;
+    position: absolute;
+    left: 0;
+    top:0px;
+    width: 20rem;
+    height: 20rem;
+    z-index: 0;
+    */
+  }
+
+  #masthead-overlay {
+    position: relative;
+  max-height: 280px;
+  top: 0rem;
+  left: 0rem;
+}
+}
 
 .first-section-color{
   background-color: #b5cfcf!important;

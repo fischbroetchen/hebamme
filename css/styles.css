@@ -10556,9 +10556,12 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
   #mainNav .navbar-brand img {
     top: 25px;
-    height: 100px;
+    height: 80px;
     /*position: fixed;*/
-    left: 20px;
+    /*left: 50px;*/
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   #mainNav .container {
     /*border-bottom: 0.3rem solid #7dabaa;*/
