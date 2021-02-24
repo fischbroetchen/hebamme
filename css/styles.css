@@ -10095,14 +10095,14 @@ img::-moz-selection {
   /*border: 0;*/
   padding-left: 35px;
   padding-right: 35px;
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 50px;
   position: relative;
   width: 100px;
   margin-right: 0;
   height: 100px;
   margin-bottom: 0;
-  margin-top: -20px;
+  /*margin-top: -20px;*/
 }
 
 
