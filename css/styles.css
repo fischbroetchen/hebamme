@@ -5470,8 +5470,13 @@ a.close.disabled {
 }
 
 .modal-text {
-  border-right: 1px dashed #6c757d !important;
+  border-left: 1px dashed #6c757d !important;
+  padding-left: 50px;
 } 
+
+.modal-text li {
+  padding-bottom: 5px;
+}
 
 .modal-backdrop {
   position: fixed;
@@ -10487,6 +10492,10 @@ header.masthead .masthead-heading {
 
 .team-member p {
   font-size: 1.5em;
+}
+
+p.team-contact {
+  font-size: 1em;
 }
 
 section#contact {
