@@ -5469,6 +5469,10 @@ a.close.disabled {
   font-family: "Raleway";
 }
 
+.modal-text {
+  border-right: 1px dashed #6c757d !important;
+} 
+
 .modal-backdrop {
   position: fixed;
   top: 0;
@@ -9781,6 +9785,10 @@ button.bg-dark:focus {
   text-transform: capitalize !important;
 }
 
+.secondary-font-family {
+  font-family: 'Sacramento';
+}
+
 .font-weight-light {
   font-weight: 300 !important;
 }
@@ -10475,6 +10483,10 @@ header.masthead .masthead-heading {
 .team-member h4 {
   margin-top: 1.5rem;
   margin-bottom: 0;
+}
+
+.team-member p {
+  font-size: 1.5em;
 }
 
 section#contact {
