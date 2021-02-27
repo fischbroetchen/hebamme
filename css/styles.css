@@ -10329,9 +10329,9 @@ header.masthead .masthead-heading {
   bottom: 0;
   left: 40px;
   width: 3px;
-  margin-left: -1.5px;
+  margin-left: -3.5px;
   content: "";
-  border-left: 5px dotted #568382;
+  border-left: 7px dotted #568382;
 }
 .timeline > li {
   position: relative;
