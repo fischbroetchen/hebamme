@@ -10661,6 +10661,9 @@ header#masthead-start {
 header#masthead-leistungen {
   background-image: url("../assets/img/header/header-leistungen.jpg");
 }
+header#masthead-tipps {
+  background-image: url("../assets/img/header/header-tipps.jpg");
+}
 
 /*.masthead img {
   object-fit: contain;
@@ -10779,4 +10782,42 @@ header#masthead-leistungen {
     top: -50px;
     left: -15rem;
     }
+}
+
+
+
+
+.sidelinks-box {
+  border-width: 0px;
+  border-color: rgb(0, 0, 2);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.71;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+  position: absolute;
+  right: -10px;
+  top: 15rem;
+  float: right!important;
+  width: 400px;
+  height: auto;
+  z-index: 106;
+  color: black;
+  padding: 2rem;
+}
+
+
+
+.sidelinks-box a {
+  text-transform: lowercase;
+}
+
+.sidelinks-box p.text-uppercase  {
+  margin-bottom: 0;
+  margin-top: 1rem;
+
+}
+
+.sidelinks-box-collapsed {
+  right:-400px;
 }
