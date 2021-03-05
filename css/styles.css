@@ -10801,20 +10801,34 @@ header#masthead-about {
   border-style: solid;
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
-  opacity: 0.71;
+  opacity: 0.81;
   box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
   position: absolute;
-  right: -10px;
+  right: -400px;
   top: 15rem;
   float: right!important;
   width: 400px;
   height: auto;
   z-index: 106;
   color: black;
-  padding: 2rem;
+  padding: 40px;
+
+  transition: all 0.5s ease;
 }
 
+#sidelinks-button {
 
+  position: relative;
+  left:-80px;
+
+  width: 40px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  /*box-shadow: 0px 3px 7px -65px rgba(0, 0, 0, 0.35);*/
+  border-width: 0px;
+  border-color: rgb(0, 0, 2);
+  border-style: solid;
+}
 
 .sidelinks-box a {
   text-transform: lowercase;
@@ -10826,8 +10840,9 @@ header#masthead-about {
 
 }
 
-.sidelinks-box-collapsed {
-  right:-400px;
+.sidelinks-box-active {
+  right:-10px !important;
+  transition: all 0.5s ease;
 }
 
 #page {

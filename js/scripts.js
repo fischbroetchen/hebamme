@@ -53,4 +53,70 @@
     navbarCollapse();
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
+
+    $(function () {
+    $("#sidelinks-button").on("click", function () {
+
+        $(".sidelinks-box").addClass("sidelinks-box-active");
+    });
+    $(document).on("click", function (e) {
+        if (e.target.class != "sidelinks-button" && !$(e.target).closest(".sidelinks-box").length) {
+            $(".sidelinks-box").removeClass("sidelinks-box-active");
+        }
+    });
+});
+
+
+
+    hide = true;
+    $('body').on("click", function () {
+        if (hide) $('.sidelinks-box').removeClass('sidelinks-box-active');
+        hide = true;
+    });
+
+// add and remove .active
+    $('body').on('click', '.sidelinks-box', function () {
+
+        var self = $(this);
+
+    if (self.hasClass('sidelinks-box-active')) {
+        $('.sidelinks-box').removeClass('sidelinks-box-active');
+        return false;
+    }
+
+    $('.sidelinks-box').removeClass('sidelinks-box-active');
+
+    self.toggleClass('sidelinks-box-active');
+    hide = false;
+});
+
+
+
+
+
+
+
 })(jQuery); // End of use strict
+
+
+ function sliderToggle1() {
+            var element = document.getElementById("slide1");
+            var element2 = document.getElementById("slide2");
+            element.classList.toggle("slider-toggle");
+            element2.classList.remove("slider-toggle");
+            }
+function sliderToggle2() {
+            var element = document.getElementById("slide2");
+            var element2 = document.getElementById("slide1");
+            element.classList.toggle("slider-toggle");
+            element2.classList.remove("slider-toggle");
+            }
+function sliderClose() {
+            var element = document.getElementById("slide2");
+            var element2 = document.getElementById("slide1");
+            element.classList.remove("slider-toggle");
+            element2.classList.remove("slider-toggle");
+            }
+
+
+
