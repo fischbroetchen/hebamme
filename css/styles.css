@@ -10664,6 +10664,12 @@ header#masthead-leistungen {
 header#masthead-tipps {
   background-image: url("../assets/img/header/header-tipps.jpg");
 }
+header#masthead-hebammen {
+  background-image: url("../assets/img/header/header-hebammen.jpg");
+}
+header#masthead-about {
+  background-image: url("../assets/img/header/header-about.jpg");
+}
 
 /*.masthead img {
   object-fit: contain;
