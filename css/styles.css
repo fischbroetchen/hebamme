@@ -10773,6 +10773,7 @@ header#masthead-about {
        top: 100px;
        height: 580px;
  }
+}
 
 @media (min-width: 1200px) { 
   #masthead-overlay {
@@ -10791,6 +10792,7 @@ header#masthead-about {
 }
 
 
+/*------------ TIPPS --------------*/
 
 
 .sidelinks-box {
@@ -10827,3 +10829,22 @@ header#masthead-about {
 .sidelinks-box-collapsed {
   right:-400px;
 }
+
+#page {
+    overflow: hidden;
+}    
+
+.box-left:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 999em;
+    top: 0;
+    bottom: 0;
+}
+
+.box-left:before {
+    left: -999em;
+    background: #7dabaa !important;
+}
+
