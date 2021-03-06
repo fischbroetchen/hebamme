@@ -10816,7 +10816,6 @@ header#masthead-about {
   z-index: 106;
   color: black;
   padding: 40px;
-
   transition: all 0.5s ease;
 }
 
@@ -10833,8 +10832,8 @@ header#masthead-about {
   border-style: solid;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
-
 }
+
 #sidelinks-button p {
   font-family: "Raleway";
   margin-top: 10px;
