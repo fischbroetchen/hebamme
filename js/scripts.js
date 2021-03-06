@@ -55,13 +55,13 @@
     $(window).scroll(navbarCollapse);
 
     $(function () {
-    $("#sidelinks-button").on("click", function () {
+    $(".sidelinks-close").on("click", function () {
 
         $(".sidelinks-box").toggleClass("sidelinks-box-active");
          $("#sidelinks-arrow").toggleClass('arrow-left');
     });
     $(document).on("click", function (e) {
-        if (e.target.class != "sidelinks-button" && !$(e.target).closest(".sidelinks-box").length) {
+        if (e.target.class != "sidelinks-close" && !$(e.target).closest(".sidelinks-box").length) {
             $(".sidelinks-box").removeClass("sidelinks-box-active");
              $("#sidelinks-arrow").removeClass('arrow-left');
         }

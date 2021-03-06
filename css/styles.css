@@ -5305,7 +5305,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .close {
   float: right;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 1;
   color: #000;
@@ -10834,7 +10834,7 @@ header#masthead-about {
   transition: all 0.5s ease;
 }
 
-#sidelinks-button {
+.sidelinks-button {
   display: block;
   position: relative;
   margin-left:-90px;
@@ -10849,12 +10849,21 @@ header#masthead-about {
   border-top-left-radius: 10px;
 }
 
-#sidelinks-button p {
+.sidelinks-button p {
   font-family: "Raleway";
   margin-top: 10px;
   transform: rotate(-90deg);
   font-size: 1.2em;
 }
+
+.sidelinks-close-button {
+    margin-top: -20px;
+    margin-right: -10px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 10px !important;
+
+  }
 
 #sidelinks-content {
   /*position: relative;
@@ -10872,7 +10881,7 @@ header#masthead-about {
 }
 
 .sidelinks-box-active {
-  right:-10px !important;
+  right:-10px ;
   transition: all 0.5s ease;
 }
 
@@ -10899,8 +10908,12 @@ header#masthead-about {
 }
 
 @media (max-width: 575.99px) {
-  .sidelinks-box {
-    width: 100%;
-    right: -100%;
+  .sidelinks-box-active {
+    width: 110%;
+    right: -5%;
+    padding-left: 12%;
+    padding-right:12%;
   }
+  
+  
 }
