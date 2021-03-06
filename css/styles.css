@@ -89,6 +89,10 @@ p {
   margin-bottom: 1rem;
 }
 
+.active-site {
+  color: rgba(86, 131, 130)!important;
+}
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
