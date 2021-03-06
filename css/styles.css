@@ -10715,7 +10715,7 @@ header#masthead-about {
   header.masthead {
     height: 450px;
     background-position: 75%;
-    /*margin-top: 170px;*/
+    margin-top: 164px;
   }
  }
 
@@ -10807,6 +10807,7 @@ header#masthead-about {
     top: -50px;
     left: -15rem;
     }
+
 }
 
 
@@ -10897,3 +10898,9 @@ header#masthead-about {
     background: #7dabaa !important;
 }
 
+@media (max-width: 575.99px) {
+  .sidelinks-box {
+    width: 100%;
+    right: -100%;
+  }
+}

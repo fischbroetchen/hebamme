@@ -58,16 +58,26 @@
     $("#sidelinks-button").on("click", function () {
 
         $(".sidelinks-box").toggleClass("sidelinks-box-active");
+         $("#sidelinks-arrow").toggleClass('arrow-left');
     });
     $(document).on("click", function (e) {
         if (e.target.class != "sidelinks-button" && !$(e.target).closest(".sidelinks-box").length) {
             $(".sidelinks-box").removeClass("sidelinks-box-active");
+             $("#sidelinks-arrow").removeClass('arrow-left');
         }
     });
 
-    $('#sidelinks-button').click(function() {
-        $("#sidelinks-arrow").toggleClass('arrow-left');
-    });
+    // $('#sidelinks-button').click(function() {
+    //     $("#sidelinks-arrow").toggleClass('arrow-left');
+    // });
+
+
+    $(function() {
+    if($(window).width() > 1600) {
+        $('.sidelinks-box').addClass('sidelinks-box-active');
+        $("#sidelinks-arrow").addClass('arrow-left');
+    }
+});
 
 });
 
