@@ -32,7 +32,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#page-top">Start</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger active-site" href="#page-top">Start</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="hebammen.html">Hebammen</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="about.html">Über uns</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="leistungen.html">Leistungen</a></li>
@@ -422,7 +422,7 @@
                     <div class="col-lg-4 offset-lg-2 text-lg-left ">© 2021 Hebammen Markgräflerland</div>
                     
                     <div class="col-lg-4 text-lg-right">
-                        <a class="mr-3" href="#!">Impressum</a>
+                        <a class="mr-3" href="#!" data-toggle="modal" data-target="#impressum-modal">Impressum</a>
                         <a href="#!" data-toggle="modal" data-target="#datenschutz-modal">Datenschutz</a>
                     </div>
                 </div>
@@ -1240,6 +1240,43 @@ target="_blank" rel="noopener">externe Datenschutzbeauftragte</a>
             </div>
           </div>
         </div>
+
+
+
+<div class="modal fade" id="impressum-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-uppercase" id="exampleModalLabel">Impressum</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="container-fluid">
+                    <h4>Kontakt</h4>                   
+                    <p>     
+                        Nicole Rohne<br>
+                        Straße XYZ<br>
+                        79426 Buggingen
+                    </p>
+                    <h4>Gestaltung & Programmierung</h4>
+                    <p>
+                        JMK Werbung I Jeanette Knapp    
+                    </p>
+                    <h4>Allgemein</h4>
+                    Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Sollten Sie auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis.
+                        
+
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

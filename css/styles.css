@@ -10600,8 +10600,13 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-
-
+#mainNav .navbar-brand img {
+  top: 25px;
+  height: 90px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 @media (max-width: 991.98px) {
   #mainNav .navbar-nav .nav-item .nav-link{
@@ -10612,15 +10617,13 @@ section#contact form#contactForm :-ms-input-placeholder {
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  #mainNav .navbar-brand img {
+/*  #mainNav .navbar-brand img {
     top: 25px;
     height: 90px;
-    /*position: fixed;
-    /*left: 50px;*/
     padding-left: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
-  }
+  }*/
   #mainNav .container {
     /*border-bottom: 0.3rem solid #7dabaa;*/
     margin-left: 0!important;
@@ -10635,6 +10638,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 
 }
+
+
 
 /*----------MASTHEAD---------*/
 /*.masthead {
@@ -10687,6 +10692,15 @@ header#masthead-about {
     height: 380px;
     background-position: 65% !important;
   }
+  #mainNav .navbar-brand img {
+    top: 25px;
+    height: 90px;
+    /*position: fixed;
+    /*left: 50px;*/
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 
 
@@ -10701,7 +10715,7 @@ header#masthead-about {
   header.masthead {
     height: 450px;
     background-position: 75%;
-        margin-top: 170px;
+    /*margin-top: 170px;*/
   }
  }
 
