@@ -24,7 +24,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #fed136;
+  /*--primary: #fed136;*/
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -232,13 +232,16 @@ label {
   margin-bottom: 0.5rem;
 }
 
-button {
+button, button:hover {
   border-radius: 0;
+  border: 0;
+  background:0;
 }
 
+
 button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+  /*outline: 1px dotted;*/
+  /*outline: 5px auto -webkit-focus-ring-color;*/
 }
 
 input,
@@ -2401,7 +2404,7 @@ textarea.form-control {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #212529;
+  /*color: #212529;*/
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
