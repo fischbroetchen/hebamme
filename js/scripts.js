@@ -54,6 +54,7 @@
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 
+    //sidelinks open and close
     $(function () {
     $(".sidelinks-close").on("click", function () {
 
@@ -67,10 +68,6 @@
         }
     });
 
-    // $('#sidelinks-button').click(function() {
-    //     $("#sidelinks-arrow").toggleClass('arrow-left');
-    // });
-
 
     $(function() {
     if($(window).width() > 1600) {
@@ -82,41 +79,6 @@
 });
 
 
-
-//     hide = true;
-//     $('body').on("click", function () {
-//         if (hide) $('.sidelinks-box').removeClass('sidelinks-box-active');
-//         hide = true;
-//     });
-
-// // add and remove .active
-//     $('body').on('click', '.sidelinks-box', function () {
-
-//         var self = $(this);
-
-//     if (self.hasClass('sidelinks-box-active')) {
-//         $('.sidelinks-box').removeClass('sidelinks-box-active');
-//         return false;
-//     }
-
-//     $('.sidelinks-box').removeClass('sidelinks-box-active');
-
-//     self.toggleClass('sidelinks-box-active');
-//     hide = false;
-// });
-
-
-
-
-
-
-
 })(jQuery); // End of use strict
-
-
- function sliderToggle1() {
-            var element = document.getElementById("slide1");
-            element.classList.toggle("slider-toggle");
-            }
 
 
